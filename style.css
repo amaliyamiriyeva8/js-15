@@ -1,0 +1,591 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  "Poppins", sans-serif;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(130deg, rgb(89, 0, 255),rgb(216, 111, 218));
+}
+.container{
+    margin: 0 auto;
+    padding: 0px 32px;
+    max-width: 1200px;
+}
+.first{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-1{
+    width: 30%;
+}
+.first-1>img{
+    object-fit: cover;
+    width: 150px;
+}
+.first-2{
+    width:600px;
+   
+   
+}
+.first-2>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+   
+}
+ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+ul li a i{
+    font-size: 7px;
+    padding-left: 5px;
+}
+.icon-none{
+    display: none;
+    color: white;
+}
+.section1{
+    width: 100%;
+    background-image: url('https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp');
+    background-position: center;
+    background-size: cover;
+    padding: 160px 0px;
+}
+.robot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.robot-1{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.robot-1 h1{
+    font-size: 55px;
+    color: white;
+}
+.robot-1 p{
+    font-size: 14px;
+    color: white;
+}
+.robot-1 button{
+   margin-top: 9px;
+    width: 155px;
+    border: 1px solid transparent;
+    padding: 12px 0px;
+    background-color: white;
+    text-align: center;
+    font-weight: 900;
+   transition: all 0.4s ease;
+}
+.robot-2{
+    width: 45%;
+    padding: 20px 0px;
+}
+.robot-2 img{
+width: 100%;
+object-fit: cover;
+}
+.robot-1>button:hover {
+ transition: all 0.9s ease;
+ cursor: pointer;
+ background-image: url('https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp');
+ background-position: center;
+ border: 1px solid white;
+ color: white;
+}
+.section3{
+    padding: 110px 0px;
+    width: 100%;
+}
+.toy{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.toy-1, .toy-2, .toy-3, .toy-4{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+}
+.toy-1>.photo, .toy-2>.photo, .toy-3>.photo, .toy-4>.photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    border-bottom: 1px solid #eee;
+}
+.toy-1>.photo img, .toy-2>.photo img, .toy-3>.photo img, .toy-4>.photo img{
+    vertical-align: middle;
+    border-style: none;
+    }
+.toy-1>.word, .toy-2>.word, .toy-3>.word, .toy-4>.word{
+    background-color: rgb(246, 248, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 0px;
+    gap: 15px;
+    
+}
+.word h1{
+ font-size: 18px;
+ font-weight:bold;
+}
+.word p{
+    text-align: center;
+    font-size: 14px;
+    max-width: 80%;
+}
+.word>button{
+    margin-top: 9px;
+    width: 155px;
+    border: 1px solid transparent;
+    padding: 12px 0px;
+    background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    transition: all 0.4s ease;
+    text-align: center;
+    font-weight: 800;
+}
+
+.word>button:hover {
+    transition: all 0.9s ease;
+    cursor: pointer;
+    background: linear-gradient(130deg, rgb(89, 0, 255),rgb(216, 111, 218));
+    color: white;
+   }
+   .section2{
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 70px;
+   }
+   .show{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+   }
+   .show h1{
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   
+.section4{
+    text-align: center;
+    width: 100%;
+    padding: 70px 0px;
+}
+.not{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.picture{
+    width: 50%;
+}
+.picture img{
+    object-fit: cover;
+    width: 100%;
+}
+.sentences{
+    width: 46%;
+    display: flex;
+    justify-content: flex-start;
+   padding: 30px 0px;
+}
+.enter{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.enter h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+}
+.enter h2{
+    font-size: 16px;
+    font-weight: 200;
+}
+.enter p{
+    font-size: 14px;
+}
+.enter button{
+    width: 155px;
+    border: 1px solid transparent;
+    padding: 12px 0px;
+    background: linear-gradient(130deg, rgb(89, 0, 255),rgb(216, 111, 218));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    transition: all 0.4s ease;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+.enter button:hover{
+    transition: all 0.8s ease;
+    color: blueviolet;
+    background: white;
+    border: 1px blueviolet solid;
+    cursor: pointer;
+}
+.section5{
+    width: 100%;
+    padding: 70px 0px;
+}
+.life{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.short{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 13px;
+}
+.short span{
+    color: rgb(149, 149, 250);
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.short h1{
+   
+    font-size: 41px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.any{
+    width: 400px;
+}
+.short h2{
+ font-size: 16px;
+ font-weight: 600;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.short p{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+.short button{
+    width: 185px;
+    border: 1px solid transparent;
+    padding: 12px 0px;
+    background: linear-gradient(130deg, rgb(89, 0, 255),rgb(216, 111, 218));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    transition: all 0.4s ease;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+.short button:hover{
+    transition: all 0.8s ease;
+    color: blueviolet;
+    background: white;
+    border: 1px blueviolet solid;
+    cursor: pointer;
+}
+
+.long{
+   
+    width: 48%;
+    padding: 110px 0px;
+    background: linear-gradient(135deg, rgb(89, 0, 255),rgb(216, 111, 218));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.long i{
+    font-size: 70px;
+    color: white;
+    cursor: pointer;
+}
+
+.section6{
+    width: 100%;
+    padding: 150px 0px;
+    background-image: url('https://preview.colorlib.com/theme/robotics/img/feature-bg.jpg.webp');
+    background-size: cover;
+}
+.display{
+    width: 100%;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .flex h1{
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .flex p{
+    text-align: center;
+    font-weight: 200;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+   }
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.just{
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    border-radius: 10px;
+    width: 31%;
+    padding: 25px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.some{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+}
+.for{
+    display: flex;
+    gap: 10px;
+   
+}
+.for i{
+    font-size: 28px;
+}
+.for p{
+    padding-top: 6px;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.you p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.for:hover{
+    transition: all .3s ease;
+    color: rgb(128, 43, 226);
+    cursor: pointer;
+}
+.section7{
+    width: 100%;
+    padding: 70px 0px;
+}
+.more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.much{
+ width: 95%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.much img{
+    width: 13%;
+    filter: grayscale(100%);
+    object-fit: cover;
+}
+.much img:hover{
+    filter: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width:1024px){
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container{
+        max-width: 800px;
+    }
+    .toy-1, .toy-2, .toy-3, .toy-4{
+        width: 48%;
+     }
+     .not{
+        display: flex;
+        flex-direction: column;
+     }
+     .picture{
+        width: 100%;
+     }
+     .sentences{
+        width: 100%;
+     }
+     .enter{
+        margin-left: 15px;
+        width: 100%;
+     }
+     .wrap{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .just{
+        width: 47%;
+     }
+}
+@media screen and (max-width:960px) {
+    .container{
+        max-width: 80%;
+    }
+    .first{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+    .first-2{
+        display: none;
+    }
+    .icon-none{
+        display: block;
+        color: white;
+        font-size: 33px;
+    }
+    .robot-1 h1{
+        font-size: 30px;
+    }
+    .short h1{
+        width: 100%;
+    }
+    .life{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .short{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .long{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .robot{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .robot-1{
+        width: 100%;
+    }
+    .robot-2{
+        width: 80%;
+    }
+    .toy-1, .toy-2, .toy-3, .toy-4{
+        width: 100%;
+     }
+     .wrap{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     .just{
+        width: 100%;
+     }
+}
+@media screen  and (max-width:576px){
+    .container{
+        max-width: 100%;
+    }
+    .any{
+        width: 100%;
+    }
+}
