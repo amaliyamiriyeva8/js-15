@@ -635,7 +635,13 @@ footer{
     font-weight: 400;
     font-size: 16px;
     color: white;
+    transition: all 0.5s ease;
   
+}
+.c-1 p:hover{
+    transition: all 0.8s ease;
+    cursor: pointer;
+    color: #8a90ff;
 }
 .inputs{
     width: 100%; 
