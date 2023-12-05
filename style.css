@@ -29,7 +29,7 @@ nav{
     width: 150px;
 }
 .first-2{
-    width:600px;
+    width:550px;
    
    
 }
@@ -124,7 +124,7 @@ object-fit: cover;
     gap: 20px;
     flex-wrap: wrap;
 }
-.toy-1, .toy-2, .toy-3, .toy-4{
+.toy-1{
     width: 23%;
     display: flex;
     justify-content: space-between;
@@ -132,18 +132,18 @@ object-fit: cover;
     flex-direction: column;
     box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
 }
-.toy-1>.photo, .toy-2>.photo, .toy-3>.photo, .toy-4>.photo{
+.toy-1>.photo{
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 30px 0px;
     border-bottom: 1px solid #eee;
 }
-.toy-1>.photo img, .toy-2>.photo img, .toy-3>.photo img, .toy-4>.photo img{
+.toy-1>.photo img{
     vertical-align: middle;
     border-style: none;
     }
-.toy-1>.word, .toy-2>.word, .toy-3>.word, .toy-4>.word{
+.toy-1>.word{
     background-color: rgb(246, 248, 250);
     display: flex;
     justify-content: center;
@@ -152,7 +152,6 @@ object-fit: cover;
     width: 100%;
     padding: 40px 0px;
     gap: 15px;
-    
 }
 .word h1{
  font-size: 18px;
@@ -225,7 +224,7 @@ object-fit: cover;
     width: 46%;
     display: flex;
     justify-content: flex-start;
-   padding: 30px 0px;
+    padding: 30px 0px;
 }
 .enter{
     width: 390px;
@@ -234,6 +233,7 @@ object-fit: cover;
     justify-content: center;
     align-items: flex-start;
     gap: 15px;
+    text-align: left;
 }
 .enter h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -461,7 +461,16 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     transition: all 0.4s ease;
 }
-
+.choose{
+    width: 100%;
+    padding: 100px 0px;
+}
+.num{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
