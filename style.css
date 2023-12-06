@@ -824,6 +824,16 @@ footer{
     flex-direction: column;
 }
 
+.fixed{
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  cursor: pointer;
+}
+.fixed i{
+    color: #8a90ff;
+    font-size: 50px;
+}
 
 
 
