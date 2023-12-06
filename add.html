@@ -13,21 +13,21 @@
 <body>
     <section class="add">
         <div class="cont">
-            <div class="form">
+            
                 <div class="small">
                 <label >Image:</label>
-                <div class="fan">
-                  <button>Choose File</button>
-                  <p>No file chosen</p>
-                </div>
+                  <input type="file" id="image" required class="button">
                   <label>Name:</label>
-                  <input type="text">
+                  <input type="text" id="name" required>
                   <label>Category:</label>
-                  <input type="text">
-                  <input type="submit" class="submit">
-                </div>
+                  <input type="text" id="category" required>
+                  <input type="submit" class="submit" id="submit">
+              
             </div>
         </div>
     </section>
+    <img src="" id="img" alt="">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="add.js"></script>
 </body>
 </html>
