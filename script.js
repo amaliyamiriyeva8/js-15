@@ -1,3 +1,6 @@
+
+
+
 const toy=document.querySelector(".toy")
 
 fetch(" http://localhost:3000/robots")
@@ -10,9 +13,14 @@ fetch(" http://localhost:3000/robots")
         <div class="word">
             <h1>${element.name}</h1>
             <p>${element.description}</p>
-            <div class="button"><a href="./details.html?id=${element.id}">VIEW DETAILS</a></div>
+            <button><a href="./details.html?id=${element.id}">VIEW DETAILS</a></button>
+            <button onclick="deleteRobot(${element.id})">Delete</button>
         </div>
         </div>
         `
     });
 })
+function deleteRobot(id){
+    axios.delete(`http://localhost:3000/robots/${id}`);
+    window.location.reload();
+}

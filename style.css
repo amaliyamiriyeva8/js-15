@@ -7,7 +7,6 @@
 nav{
     width: 100%;
     position: fixed;
-    background-color: #8a90ff;
 }
 .container{
     margin: 0 auto;
@@ -130,21 +129,21 @@ object-fit: cover;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+    box-shadow: 0px 10px 30px 0px rgba(42, 42, 43, 0.2);
 }
 .toy-1>.photo{
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 30px 0px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #161616;
 }
 .toy-1>.photo img{
     vertical-align: middle;
     border-style: none;
     }
 .toy-1>.word{
-    background-color: rgb(246, 248, 250);
+    background-color: rgb(228, 229, 230);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +161,7 @@ object-fit: cover;
     font-size: 14px;
     max-width: 80%;
 }
-.word  .button {
+.word  button {
     margin-top: 9px;
     width: 155px;
     border: 1px solid transparent;
@@ -176,7 +175,7 @@ object-fit: cover;
     font-weight: 800;
 }
 
-.word  .button a {
+.word  button a {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
@@ -184,13 +183,13 @@ object-fit: cover;
     transition:all .6s ease; 
 }
 
-.word .button:hover {
+.word button:hover {
     cursor: pointer;
     background: linear-gradient(130deg, rgb(89, 0, 255), rgb(216, 111, 218));
     color: white;
 }
 
-.word .button:hover a {
+.word button:hover a {
     color: white;
 }
    .section2{
@@ -478,15 +477,87 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     transition: all 0.4s ease;
 }
+
 .choose{
+    padding: 120px 0px;
     width: 100%;
-    padding: 100px 0px;
+   
 }
 .num{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.toy-1{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 10px 30px 0px rgba(42, 42, 43, 0.2);
+}
+.toy-1>.photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    border-bottom: 1px solid #eee;
+}
+.toy-1>.photo img{
+    vertical-align: middle;
+    border-style: none;
+    }
+.toy-1>.word{
+    background-color: rgb(246, 248, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 0px;
+    gap: 15px;
+}
+.word h1{
+ font-size: 18px;
+ font-weight:bold;
+}
+.word p{
+    text-align: center;
+    font-size: 14px;
+    max-width: 80%;
+}
+.word  button {
+    margin-top: 9px;
+    width: 155px;
+    border: 1px solid transparent;
+    padding: 12px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:all .4s ease; 
+    text-align: center;
+    font-weight: 800;
+}
+
+.word  button a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition:all .6s ease; 
+}
+
+.word button:hover {
+    cursor: pointer;
+    background: linear-gradient(130deg, rgb(89, 0, 255), rgb(216, 111, 218));
+    color: white;
+}
+
+.word button:hover a {
+    color: white;
 }
 .section9{
     width: 100%;
@@ -734,7 +805,24 @@ footer{
     background: linear-gradient(130deg, rgb(89, 0, 255),rgb(216, 111, 218));
     cursor: pointer;
 }
+.add{
+    width: 100%;
+    padding: 100px 0px;
+}
 
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+    width: 50%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
 
 
