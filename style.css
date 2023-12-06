@@ -8,6 +8,7 @@ nav{
     width: 100%;
     position: fixed;
 }
+
 .container{
     margin: 0 auto;
     padding: 0px 32px;
@@ -479,9 +480,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .choose{
-    padding: 120px 0px;
+    padding: 150px 0px 90px 0px;
     width: 100%;
-   
+  
 }
 .num{
     width: 100%;
@@ -805,25 +806,6 @@ footer{
     background: linear-gradient(130deg, rgb(89, 0, 255),rgb(216, 111, 218));
     cursor: pointer;
 }
-.add{
-    width: 100%;
-    padding: 100px 0px;
-}
-
-.cont{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.form{
-    width: 50%;
-    background-color: gainsboro;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
 .fixed{
   position: fixed;
   bottom: 10px;
@@ -834,6 +816,49 @@ footer{
     color: #8a90ff;
     font-size: 50px;
 }
+
+.was{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    justify-content: space-between;
+}
+.were{
+    flex-direction: column;
+    overflow: auto;
+    background-color: #000000;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 35%;
+    
+}
+.were ul{
+    margin-left: 19px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#icon{
+    font-size: 25px;
+    color: #eee;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
 
 
 
