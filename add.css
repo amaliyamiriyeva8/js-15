@@ -33,17 +33,12 @@
     align-items: flex-start;
     flex-direction: column;
 }
-.fan{
-    width: 100%;
-    display: flex;
-    gap: 20px;
-}
 
 input{
     padding: 6px 0px;
     width: 100%;
 }
-.submit{
+#submit{
     width: 99px;
     border-radius: 5px;
     border: 1px solid transparent;
@@ -57,7 +52,7 @@ input{
     font-weight: 300;
     color: white;
 }
-.submit:hover{
+#submit:hover{
     transition: all 0.8s ease;
     color: blueviolet;
     background: white;

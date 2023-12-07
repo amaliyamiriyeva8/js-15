@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,24 +11,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
     <section class="add">
         <div class="cont">
-            
-                <div class="small">
-                <label >Image:</label>
-                  <input type="file" id="image" required class="button">
-                  <label>Name:</label>
-                  <input type="text" id="name" required>
-                  <label>Category:</label>
-                  <input type="text" id="category" required>
-                  <input type="submit" class="submit" id="submit">
-              
+
+            <div class="small">
+                <form action="" class="add-form">
+                    <label>Image:</label>
+                    <input type="file" id="image" required>
+                    <label>Name:</label>
+                    <input type="text" id="name" required>
+                    <label>Category:</label>
+                    <input type="text" id="category" required>
+                    <input type="submit" id="submit">
+                </form>
             </div>
+
         </div>
     </section>
-    <img src="" id="img" alt="">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="add.js"></script>
+    <script src="./add.js"></script>
 </body>
+
 </html>
